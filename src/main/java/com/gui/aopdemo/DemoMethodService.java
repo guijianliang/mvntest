@@ -11,5 +11,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class DemoMethodService {
+    @Action(name = "heheh")
     public void add(){}
 }

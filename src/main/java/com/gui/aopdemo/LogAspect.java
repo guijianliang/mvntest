@@ -32,7 +32,7 @@ public class LogAspect {
     }
 
     //6. 通过before注解声明一个建言,此建言直接使用拦截规则作为参数;
-    @Before("execution(*com.gui.aopdemo.DemoMethodService.*(..))")
+    @Before("execution(* com.gui.aopdemo.DemoMethodService.*(..))")
     public void before(JoinPoint joinPoint){
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();
