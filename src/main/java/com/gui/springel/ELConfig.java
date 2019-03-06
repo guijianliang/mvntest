@@ -15,8 +15,10 @@ import org.springframework.core.io.Resource;
 
 @Configuration
 @ComponentScan("com.gui.springel")
-@PropertySource("classpath:com/gui/springe/test.properties")
+///Users/jianliang.gui/Desktop/aliyun/javas/mavenTest/src/main/java/com/gui/springel
+@PropertySource("classpath:test.properties")
 public class ELConfig {
+
     @Value("i love you")
     private String normal;
 
