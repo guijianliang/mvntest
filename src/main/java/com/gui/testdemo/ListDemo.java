@@ -15,11 +15,12 @@ import java.util.stream.IntStream;
 
 public class ListDemo {
     public static void main(String[] args) {
-//        List costBeforeTax = Arrays.asList(100, 200, 300, 400, 500);
+        List costBeforeTax = Arrays.asList(100, 200, 300, 400, 500);
 //        System.out.println(costBeforeTax.getClass().getName());
 
         Random random = new Random();
+        System.out.println(random.nextInt());
 //        random.ints().limit(20).forEach(System.out::println);
-        IntStream.range(0,5).forEach(System.out::println);
+//        IntStream.range(0,5).forEach(System.out::println);
     }
 }

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GzipOkHttp",
+            "request": "launch",
+            "mainClass": "com.gui.a.okhttpdemo.GzipOkHttp",
+            "projectName": "mavenTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GzipTest",
+            "request": "launch",
+            "mainClass": "com.gui.a.okhttpdemo.GzipTest",
+            "projectName": "mavenTest"
+        }
+    ]
+}
