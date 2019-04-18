@@ -35,8 +35,7 @@ public class InvokeDemo {
         //因为是无参方法,直接传null
         Method method_eat = cl.getMethod("eat",null);
         // 1.因为是静态的需要传o, 2.因为是无参的,实参就传null
-        System.out.println(method_eat.invoke(o,null));
-
+        method_eat.invoke(o,null);
 
 
     }
